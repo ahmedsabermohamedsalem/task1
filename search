@@ -1,0 +1,37 @@
+
+
+andard numeric format)
+
+عباره عن        عرض أرقام بأشكال مختلف
+وتنسيق أرقام  
+ زىى  عرض رقم بشكل   عمله 
+30$
+ممكن عرضها بأشكال أخرى حسب أستخدام رقم فى البرنامج 
+ عرض عمله  فى  المبلغ 
+ممكن أرقام عشريه 
+30.00
+1. why the output of this Equation = $30.00?
+اجابه  : لان  مستخدم فى كود (C)تدل على Currency
+2. what is its benefit?
+يوجد استفاده كثيرمنها 
+إفاده من  تنسيق الأرقام  فى برامج  البنوك و الحسابات إضهار نوع  العمله  المستخدمه 
+ويوجد  أستخدام فى فواتير 
+وارقام المؤيه %  مثال 30% فى نتائج طلبه 
+3. try another example with a different specifier with a screenshot of the output.
+كود :
+     static void Main(string[] args)
+     {
+
+         int x = 10;
+         int y = 20;
+
+         Console.WriteLine( $"the result  {y+x:P} " );
+
+
+     }
+
+
+OUTPUT
+the result: 30%
+
+ 
